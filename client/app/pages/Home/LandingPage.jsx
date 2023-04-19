@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const LandingPage = () => {
     return (
-        <div className="flex h-screen text-white">
+        <div className="flex h-screen text-white sticky top-0">
             <div className="w-96 p-1 bg-cyan-950">
                 <div className=" sticky top-2 bg-cyan-950">
                     <p className="font-semibold  my-3 text-slate-200">Chats</p>
@@ -151,6 +151,8 @@ const LandingPage = () => {
             <div className="flex-1 bg-slate-800 relative">
 
                 inbox chat
+
+                {/* message header  */}
                 <div className="absolute top-0 bg-slate-700 w-full h-20  ">
 
                     <div className=" flex gap-3 px-2 my-2  rounded-md items-center">
@@ -166,9 +168,89 @@ const LandingPage = () => {
                         </div>
                     </div>
                 </div>
+                {/* ------------------------------------ */}
 
+                <div className=" flex flex-col gap-4 mt-14 overflow-y-scroll h-96 p-4">
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+                    <div className="self-end">
+                        <p >how are you?</p>
+                    </div>
+                    <div className="self-start ">
+                        <p>I'm fine, what about you?</p>
+                    </div>
+
+                </div>
+
+
+
+                {/* messege input */}
                 <div className="absolute bottom-1 bg-slate-700 w-full h-20 shadow flex items-center justify-center">
-                    {/* messege input */}
+
                     <input
                         className="w-1/2 outline-none py-1 px-2 bg-cyan-950"
                         type="text"
