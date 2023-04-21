@@ -39,13 +39,14 @@ const LandingPage = () => {
                 {/*already  chat user  list */}
                 <div className="h-96 my-2 overflow-auto hideSroll " >
 
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center">
+                    {/* messaged users */}
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -57,13 +58,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -75,13 +76,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -93,13 +94,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -111,13 +112,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -129,13 +130,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -147,13 +148,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -165,13 +166,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -183,13 +184,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -201,13 +202,13 @@ const LandingPage = () => {
 
                         </div>
                     </div>
-                    {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
                                 alt="user image"
-                                className="rounded-full h-12 w-12 object-cover "
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
                         </div>
                         <div className="w-full" >
@@ -219,6 +220,7 @@ const LandingPage = () => {
 
                         </div>
                     </div>
+
 
 
 
@@ -253,143 +255,451 @@ const LandingPage = () => {
 
 
                     {/*  receiver message */}
-                    <div className="self-start my-4" style={{ maxWidth: "75%" }}>
-                        <div
-                            className=" bg-cyan-800 max-w-3/4 py-2 px-4  rounded-ss-3xl rounded-se-md "
-
-                        >
-                            <p>I'm fine, what about you?
-
-                                how are you? and where are you what about your day of Eid Ul Fitor.
-                                what you will do all day long at eid day. have you any plan?
-                            </p>
-
+                    <div className="flex   gap-1 ">
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full h-8 w-8 object-cover self-end"
+                            />
                         </div>
-                        {/* <div className="flex justify-between">
-                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
-                            <p className="text-end mx-5">seen</p>
-                        </div> */}
+                        <div className="self-start my-2" style={{ maxWidth: "75%" }}>
+                            <div
+                                className=" bg-cyan-800  py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                            >
+                                <p>I'm fine, what about you?
+
+                                    how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+                                </p>
+
+                            </div>
+                            {/* <div className="flex justify-between">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div> */}
+                        </div>
                     </div>
 
                     {/* sender message */}
-                    <div className="self-end" style={{ maxWidth: "75%" }}>
+                    <div className="flex gap-1 self-end" style={{ maxWidth: "75%" }}>
+                        <div className="my-2 " >
+                            <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                                <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
 
-                        <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
-                            <p >how are you? and where are you what about your day of Eid Ul Fitor.
-                                what you will do all day long at eid day. have you any plan?
+                                </p>
 
-                            </p>
+                            </div>
+
+                            {/* <div className="flex justify-between my-0">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div> */}
 
                         </div>
-                        {/* <div className="flex justify-between">
-                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
-                            <p className="text-end mx-5">seen</p>
-                        </div> */}
+
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className=" max-h-8  rounded-full  object-cover self-end "
+                                style={{ maxWidth: '32px' }}
+                            />
+                        </div>
 
                     </div>
                     {/*  receiver message */}
-                    <div className="self-start my-4" style={{ maxWidth: "75%" }}>
-                        <div
-                            className=" bg-cyan-800 max-w-3/4 py-2 px-4  rounded-ss-3xl rounded-se-md "
-
-                        >
-                            <p>I'm fine, what about you?
-
-                                how are you? and where are you what about your day of Eid Ul Fitor.
-                                what you will do all day long at eid day. have you any plan?
-                            </p>
-
+                    <div className="flex   gap-1 ">
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full h-8 w-8 object-cover self-end"
+                            />
                         </div>
-                        {/* <div className="flex justify-between">
-                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
-                            <p className="text-end mx-5">seen</p>
-                        </div> */}
+                        <div className="self-start my-2" style={{ maxWidth: "75%" }}>
+                            <div
+                                className=" bg-cyan-800  py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                            >
+                                <p>I'm fine, what about you?
+
+                                    how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+                                </p>
+
+                            </div>
+                            <div className="flex justify-between">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* sender message */}
-                    <div className="self-end" style={{ maxWidth: "75%" }}>
+                    <div className="flex gap-1 self-end" style={{ maxWidth: "75%" }}>
+                        <div className="my-2 " >
+                            <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                                <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
 
-                        <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
-                            <p >how are you? and where are you what about your day of Eid Ul Fitor.
-                                what you will do all day long at eid day. have you any plan?
+                                </p>
 
-                            </p>
+                            </div>
+
+                            <div className="flex justify-between my-0">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
 
                         </div>
-                        {/* <div className="flex justify-between">
-                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
-                            <p className="text-end mx-5">seen</p>
-                        </div> */}
+
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className=" max-h-8  rounded-full  object-cover self-end "
+                                style={{ maxWidth: '32px' }}
+                            />
+                        </div>
 
                     </div>
                     {/*  receiver message */}
-                    <div className="self-start my-4" style={{ maxWidth: "75%" }}>
-                        <div
-                            className=" bg-cyan-800 max-w-3/4 py-2 px-4  rounded-ss-3xl rounded-se-md "
-
-                        >
-                            <p>I'm fine, what about you?
-
-                                how are you? and where are you what about your day of Eid Ul Fitor.
-                                what you will do all day long at eid day. have you any plan?
-                            </p>
-
+                    <div className="flex   gap-1 ">
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full h-8 w-8 object-cover self-end"
+                            />
                         </div>
-                        {/* <div className="flex justify-between">
-                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
-                            <p className="text-end mx-5">seen</p>
-                        </div> */}
+                        <div className="self-start my-2" style={{ maxWidth: "75%" }}>
+                            <div
+                                className=" bg-cyan-800  py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                            >
+                                <p>I'm fine, what about you?
+
+                                    how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+                                </p>
+
+                            </div>
+                            <div className="flex justify-between">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* sender message */}
-                    <div className="self-end" style={{ maxWidth: "75%" }}>
+                    <div className="flex gap-1 self-end" style={{ maxWidth: "75%" }}>
+                        <div className="my-2 " >
+                            <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                                <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
 
-                        <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
-                            <p >how are you? and where are you what about your day of Eid Ul Fitor.
-                                what you will do all day long at eid day. have you any plan?
+                                </p>
 
-                            </p>
+                            </div>
+
+                            <div className="flex justify-between my-0">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
 
                         </div>
-                        {/* <div className="flex justify-between">
-                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
-                            <p className="text-end mx-5">seen</p>
-                        </div> */}
+
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className=" max-h-8  rounded-full  object-cover self-end "
+                                style={{ maxWidth: '32px' }}
+                            />
+                        </div>
 
                     </div>
                     {/*  receiver message */}
-                    <div className="self-start my-4" style={{ maxWidth: "75%" }}>
-                        <div
-                            className=" bg-cyan-800 max-w-3/4 py-2 px-4  rounded-ss-3xl rounded-se-md "
-
-                        >
-                            <p>I'm fine, what about you?
-
-                                how are you? and where are you what about your day of Eid Ul Fitor.
-                                what you will do all day long at eid day. have you any plan?
-                            </p>
-
+                    <div className="flex   gap-1 ">
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full h-8 w-8 object-cover self-end"
+                            />
                         </div>
-                        {/* <div className="flex justify-between">
-                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
-                            <p className="text-end mx-5">seen</p>
-                        </div> */}
+                        <div className="self-start my-2" style={{ maxWidth: "75%" }}>
+                            <div
+                                className=" bg-cyan-800  py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                            >
+                                <p>I'm fine, what about you?
+
+                                    how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+                                </p>
+
+                            </div>
+                            <div className="flex justify-between">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* sender message */}
-                    <div className="self-end" style={{ maxWidth: "75%" }}>
+                    <div className="flex gap-1 self-end" style={{ maxWidth: "75%" }}>
+                        <div className="my-2 " >
+                            <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                                <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
 
-                        <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
-                            <p >how are you? and where are you what about your day of Eid Ul Fitor.
-                                what you will do all day long at eid day. have you any plan?
+                                </p>
 
-                            </p>
+                            </div>
+
+                            <div className="flex justify-between my-0">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
 
                         </div>
-                        {/* <div className="flex justify-between">
-                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
-                            <p className="text-end mx-5">seen</p>
-                        </div> */}
+
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className=" max-h-8  rounded-full  object-cover self-end "
+                                style={{ maxWidth: '32px' }}
+                            />
+                        </div>
+
+                    </div>
+                    {/*  receiver message */}
+                    <div className="flex   gap-1 ">
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full h-8 w-8 object-cover self-end"
+                            />
+                        </div>
+                        <div className="self-start my-2" style={{ maxWidth: "75%" }}>
+                            <div
+                                className=" bg-cyan-800  py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                            >
+                                <p>I'm fine, what about you?
+
+                                    how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+                                </p>
+
+                            </div>
+                            <div className="flex justify-between">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* sender message */}
+                    <div className="flex gap-1 self-end" style={{ maxWidth: "75%" }}>
+                        <div className="my-2 " >
+                            <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                                <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+
+                                </p>
+
+                            </div>
+
+                            <div className="flex justify-between my-0">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+
+                        </div>
+
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className=" max-h-8  rounded-full  object-cover self-end "
+                                style={{ maxWidth: '32px' }}
+                            />
+                        </div>
+
+                    </div>
+                    {/*  receiver message */}
+                    <div className="flex   gap-1 ">
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full h-8 w-8 object-cover self-end"
+                            />
+                        </div>
+                        <div className="self-start my-2" style={{ maxWidth: "75%" }}>
+                            <div
+                                className=" bg-cyan-800  py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                            >
+                                <p>I'm fine, what about you?
+
+                                    how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+                                </p>
+
+                            </div>
+                            <div className="flex justify-between">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* sender message */}
+                    <div className="flex gap-1 self-end" style={{ maxWidth: "75%" }}>
+                        <div className="my-2 " >
+                            <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                                <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+
+                                </p>
+
+                            </div>
+
+                            <div className="flex justify-between my-0">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+
+                        </div>
+
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className=" max-h-8  rounded-full  object-cover self-end "
+                                style={{ maxWidth: '32px' }}
+                            />
+                        </div>
+
+                    </div>
+                    {/*  receiver message */}
+                    <div className="flex   gap-1 ">
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full h-8 w-8 object-cover self-end"
+                            />
+                        </div>
+                        <div className="self-start my-2" style={{ maxWidth: "75%" }}>
+                            <div
+                                className=" bg-cyan-800  py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                            >
+                                <p>I'm fine, what about you?
+
+                                    how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+                                </p>
+
+                            </div>
+                            <div className="flex justify-between">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* sender message */}
+                    <div className="flex gap-1 self-end" style={{ maxWidth: "75%" }}>
+                        <div className="my-2 " >
+                            <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                                <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+
+                                </p>
+
+                            </div>
+
+                            <div className="flex justify-between my-0">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+
+                        </div>
+
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className=" max-h-8  rounded-full  object-cover self-end "
+                                style={{ maxWidth: '32px' }}
+                            />
+                        </div>
+
+                    </div>
+                    {/*  receiver message */}
+                    <div className="flex   gap-1 ">
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full h-8 w-8 object-cover self-end"
+                            />
+                        </div>
+                        <div className="self-start my-2" style={{ maxWidth: "75%" }}>
+                            <div
+                                className=" bg-cyan-800  py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                            >
+                                <p>I'm fine, what about you?
+
+                                    how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+                                </p>
+
+                            </div>
+                            <div className="flex justify-between">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* sender message */}
+                    <div className="flex gap-1 self-end" style={{ maxWidth: "75%" }}>
+                        <div className="my-2 " >
+                            <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                                <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                    what you will do all day long at eid day. have you any plan?
+
+                                </p>
+
+                            </div>
+
+                            <div className="flex justify-between my-0">
+                                <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                                <p className="text-end mx-5">seen</p>
+                            </div>
+
+                        </div>
+
+                        <div className="flex">
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className=" max-h-8  rounded-full  object-cover self-end "
+                                style={{ maxWidth: '32px' }}
+                            />
+                        </div>
 
                     </div>
 
