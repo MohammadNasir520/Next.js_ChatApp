@@ -2,25 +2,25 @@
 
 const page = () => {
     return (
-        <div>
+        <div className="bg-cyan-950 h-screen">
             signUp
-            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-                <div class="mx-auto max-w-lg">
+            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 ">
+                <div class="mx-auto max-w-lg shadow-xl bg-teal-950 shadow-cyan-100">
 
 
                     <form
                         action=""
-                        class="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-2xl sm:p-6 lg:p-8"
+                        class="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-2xl sm:p-6 lg:p-8 text-white"
                     >
-                        <p class="text-center text-lg font-medium">Create a new account</p>
+                        <p class="text-center text-lg font-medium ">Create a new account</p>
 
                         <div>
 
                             <div class="relative">
-                                <label for="email" class="sr-only">Email</label>
+                                <label for="email" class="">Email</label>
                                 <input
                                     type="email"
-                                    class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm outline-none"
+                                    class="w-full bg-cyan-950  rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm outline-none"
                                     placeholder="Enter email"
 
                                 />
@@ -50,7 +50,7 @@ const page = () => {
                             <div class="relative">
                                 <input
                                     type="password"
-                                    class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm outline-none"
+                                    class="w-full bg-cyan-950  rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm outline-none"
                                     placeholder="Enter password"
                                 />
 
