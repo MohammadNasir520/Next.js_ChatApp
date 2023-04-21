@@ -1,7 +1,11 @@
+
+'use client'
 import Image from "next/image";
 import user from "../../assets/images/user.jpg"
 
 const LandingPage = () => {
+
+
     return (
         <div className="flex h-screen text-white sticky top-0">
             <div className="w-96 p-1 bg-cyan-950">
@@ -14,6 +18,7 @@ const LandingPage = () => {
                             className="bg-cyan-900 w-3/4 outline-none py-1 px-2"
                             type="text"
                             placeholder="search users"
+
                         />
 
                     </div>

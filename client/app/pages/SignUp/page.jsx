@@ -1,16 +1,33 @@
+
+"use client"
 import Link from "next/link";
+import { useState } from "react";
 
 
 const page = () => {
+
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [confirmPassword, setConfirmPassword] = useState('')
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        console.log('email', email)
+        console.log('pass', password)
+        console.log('confirmPassword', confirmPassword)
+    }
+
     return (
         <div className="bg-cyan-950 h-screen">
-            signUp
+
             <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 ">
                 <div class="mx-auto max-w-lg shadow-xl bg-teal-950 shadow-cyan-100">
 
 
                     <form
-                        action=""
+                        onSubmit={handleSubmit}
                         class="mb-0 mt-6 space-y-1 rounded-lg p-2 shadow:p-6 lg:p-8 text-white"
                     >
                         <p class="text-center text-lg font-medium ">Create a new account</p>
@@ -20,28 +37,14 @@ const page = () => {
                             <div class="relative">
                                 <label for="email" class="">Your Full Name</label>
                                 <input
+                                    onChange={(event) => setName(event.target.value)}
                                     type="email"
                                     class="w-full bg-cyan-950  rounded-lg border-gray-200 p-2 pe-12  shadow-sm outline-none"
                                     placeholder="Enter email"
 
                                 />
 
-                                <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="h-4 w-4 text-gray-400"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                                        />
-                                    </svg>
-                                </span>
+
                             </div>
                         </div>
                         <div>
@@ -49,36 +52,23 @@ const page = () => {
                             <div class="relative">
                                 <label for="email" class="">Your Email</label>
                                 <input
+                                    onChange={(event) => setEmail(event.target.value)}
                                     type="email"
                                     class="w-full bg-cyan-950  rounded-lg border-gray-200 p-2 pe-12  shadow-sm outline-none"
                                     placeholder="Enter email"
 
                                 />
 
-                                <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="h-4 w-4 text-gray-400"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                                        />
-                                    </svg>
-                                </span>
+
                             </div>
                         </div>
 
                         <div>
-                            {/* sr-only */}
+
                             <label for="password" class=" ">Set a Password</label>
                             <div class="relative">
                                 <input
+                                    onChange={(event) => setPassword(event.target.value)}
                                     type="password"
                                     class="w-full bg-cyan-950  rounded-lg border-gray-200 p-2 pe-12  shadow-sm outline-none"
                                     placeholder="Enter password"
@@ -110,10 +100,11 @@ const page = () => {
                         </div>
 
                         <div>
-                            {/* sr-only */}
+
                             <label for="password" class=" ">Confirm Password</label>
                             <div class="relative">
                                 <input
+                                    onChange={(event) => setConfirmPassword(event.target.value)}
                                     type="password"
                                     class="w-full bg-cyan-950  rounded-lg border-gray-200 p-2 pe-12  shadow-sm outline-none"
                                     placeholder="Enter password"
@@ -141,6 +132,20 @@ const page = () => {
                                         />
                                     </svg>
                                 </span>
+                            </div>
+                        </div>
+                        <div>
+
+                            <label for="image" class=" ">Upload Profile Pic</label>
+                            <div class="relative">
+                                <input
+                                    // onChange={(event) => setConfirmPassword(event.target.value)}
+                                    type="file"
+                                    accept="image/*"
+                                    name="image"
+
+                                />
+
                             </div>
                         </div>
 

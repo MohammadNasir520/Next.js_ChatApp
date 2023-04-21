@@ -1,13 +1,27 @@
+"use client"
 import Link from "next/link";
+import { useState } from "react";
+
 
 
 const Login = () => {
+
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        console.log('email', email)
+        console.log('pass', password)
+    }
+
     return (
-        <div className="bg-cyan-950 h-screen">
+        <div className="bg-cyan-950 h-screen rounded-md">
             signIn
-            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 ">
+            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8  ">
                 <div class="mx-auto max-w-lg shadow-xl bg-teal-950 shadow-cyan-100">
                     <form
+                        onSubmit={handleSubmit}
                         action=""
                         class="mb-0 mt-6 space-y-1 rounded-lg p-2 shadow:p-6 lg:p-8 text-white"
                     >
@@ -20,6 +34,7 @@ const Login = () => {
                                 <label for="email" class="">Your Email</label>
                                 <input
                                     type="email"
+                                    onChange={(event) => setEmail(event.target.value)}
                                     class="w-full bg-cyan-950  rounded-lg border-gray-200 p-2 pe-12  shadow-sm outline-none"
                                     placeholder="Enter email"
 
@@ -44,12 +59,13 @@ const Login = () => {
                             </div>
                         </div>
 
-                        <div>
+                        <div className="mb-2">
                             {/* sr-only */}
                             <label for="password" class=" "> Password</label>
                             <div class="relative">
                                 <input
                                     type="password"
+                                    onChange={(event) => setPassword(event.target.value)}
                                     class="w-full bg-cyan-950  rounded-lg border-gray-200 p-2 pe-12  shadow-sm outline-none"
                                     placeholder="Enter password"
                                 />
