@@ -1,30 +1,28 @@
+import Link from "next/link";
 
 
 const Login = () => {
     return (
-        <div className="">
-            <p>login</p>
-
-
-            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-                <div class="mx-auto max-w-lg">
-
-
+        <div className="bg-cyan-950 h-screen">
+            signIn
+            <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 ">
+                <div class="mx-auto max-w-lg shadow-xl bg-teal-950 shadow-cyan-100">
                     <form
                         action=""
-                        class="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8"
+                        class="mb-0 mt-6 space-y-1 rounded-lg p-2 shadow:p-6 lg:p-8 text-white"
                     >
-                        <p class="text-center text-lg font-medium">Sign in to your account</p>
+                        <p class="text-center text-lg font-medium "> SignIn to Your account</p>
+
 
                         <div>
-                            <label for="email" class="sr-only">Email</label>
 
                             <div class="relative">
-
+                                <label for="email" class="">Your Email</label>
                                 <input
                                     type="email"
-                                    class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    class="w-full bg-cyan-950  rounded-lg border-gray-200 p-2 pe-12  shadow-sm outline-none"
                                     placeholder="Enter email"
+
                                 />
 
                                 <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
@@ -47,12 +45,12 @@ const Login = () => {
                         </div>
 
                         <div>
-                            <label for="password" class="sr-only">Password</label>
-
+                            {/* sr-only */}
+                            <label for="password" class=" "> Password</label>
                             <div class="relative">
                                 <input
                                     type="password"
-                                    class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                                    class="w-full bg-cyan-950  rounded-lg border-gray-200 p-2 pe-12  shadow-sm outline-none"
                                     placeholder="Enter password"
                                 />
 
@@ -80,24 +78,23 @@ const Login = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="cursor-pointer font-500"><p>Forgot password?</p></div>
+
+
+
                         <button
                             type="submit"
                             class="block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white"
                         >
-                            Sign in
+                            SignIn
                         </button>
 
-                        <p class="text-center text-sm text-gray-500">
+                        <p class="text-center text-lg text-white">
                             No account?
-                            <a class="underline" href="">Sign up</a>
+                            <Link class="underline  bg-transparent text-blue-700" href="/pages/SignUp">SignUp</Link>
                         </p>
                     </form>
                 </div>
             </div>
-
-
-
         </div>
     );
 };

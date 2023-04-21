@@ -715,7 +715,7 @@ const LandingPage = () => {
                 {/* message input div*/}
                 <div className="absolute bottom-1 bg-slate-800 w-full h-20 shadow flex items-center justify-center">
 
-                    <input
+                    <textarea
                         className="w-1/2 outline-none py-1 px-2 bg-cyan-950"
                         type="text"
                         placeholder="Enter messages"
