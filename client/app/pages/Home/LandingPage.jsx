@@ -16,17 +16,7 @@ const LandingPage = () => {
                     />
 
                     {/* active users list side scroll */}
-                    {/* <div className="my-2 object-cover w-12">
-                        <Image
-                            style={{ borderRadius: '50%' }}
-                            src={user}
-                            width={30}
-                            height={30}
-                            className="object-cover"
-                        // className="rounded-full"
-                        ></Image>
-                        <p className=" text-xs  text-slate-300">shaila sabi</p>
-                    </div> */}
+
                     <div className="my-2 w-12 flex flex-col">
                         <div className="">
                             <Image
@@ -39,7 +29,7 @@ const LandingPage = () => {
                     </div>
 
 
-                    <h3 className="font-semibold my-2 text-slate-200">Recent</h3>
+                    <h3 className="font-semibold my-2 text-slate-200">Recent Chats </h3>
                 </div>
 
 
@@ -48,7 +38,7 @@ const LandingPage = () => {
                 <div className="h-96 my-2 overflow-auto hideSroll " >
 
                     {/* messaged user */}
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-2  items-center">
+                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center">
                         <div>
                             <Image
                                 src={user}
@@ -256,7 +246,7 @@ const LandingPage = () => {
                 </div>
                 {/* ------------------------------------ */}
 
-                <div className=" flex flex-col gap-4 mt-14 overflow-y-scroll h-[440px] p-4">
+                <div className=" flex flex-col gap-4 mt-14 overflow-y-scroll h-[540px] p-4">
                     <div className="self-end">
                         <p >how are you?</p>
                     </div>
@@ -320,14 +310,17 @@ const LandingPage = () => {
                     <div className="self-end">
                         <p >how are you?</p>
                     </div>
-                    <div className="self-start ">
+                    <div className="self-start  bg-cyan-800 max-w-3/4 py-2 px-4 rounded-ss rounded-se-3xl ">
                         <p>I'm fine, what about you?</p>
                     </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
+                    <div className="self-end bg-cyan-800 max-w-3/4 py-2 px-4 rounded-ss rounded-se-3xl" >
+                        <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                            what you will do all day long at eid day. have you any plan?
+
+                        </p>
                     </div>
                     <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
+                        <p>I'm fine, what about you? dfas</p>
                     </div>
 
                 </div>
