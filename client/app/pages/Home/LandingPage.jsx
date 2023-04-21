@@ -9,12 +9,14 @@ const LandingPage = () => {
                     <p className="font-semibold  my-3 text-slate-200">Chats</p>
 
                     {/* serch input */}
-                    <input
-                        className="bg-cyan-900 w-full outline-none py-1 px-2"
-                        type="text"
-                        placeholder="search users"
-                    />
+                    <div className="w-full grid place-items-center">
+                        <input
+                            className="bg-cyan-900 w-3/4 outline-none py-1 px-2"
+                            type="text"
+                            placeholder="search users"
+                        />
 
+                    </div>
                     {/* active users list side scroll */}
 
                     <div className="my-2 w-12 flex flex-col">
@@ -239,95 +241,168 @@ const LandingPage = () => {
                                 className="rounded-full h-12 w-12 object-cover "
                             />
                         </div>
-                        <div>
+                        <div >
                             <p className="font-semibold text-slate-300">Nasir Ahsan</p>
+                            <p className="font-thin text-slate-300">active 2h ago</p>
                         </div>
                     </div>
                 </div>
                 {/* ------------------------------------ */}
 
                 <div className=" flex flex-col gap-4 mt-14 overflow-y-scroll h-[540px] p-4">
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end">
-                        <p >how are you?</p>
-                    </div>
-                    <div className="self-start  bg-cyan-800 max-w-3/4 py-2 px-4 rounded-ss rounded-se-3xl ">
-                        <p>I'm fine, what about you?</p>
-                    </div>
-                    <div className="self-end bg-cyan-800 max-w-3/4 py-2 px-4 rounded-ss rounded-se-3xl" >
-                        <p >how are you? and where are you what about your day of Eid Ul Fitor.
-                            what you will do all day long at eid day. have you any plan?
 
-                        </p>
+
+                    {/*  receiver message */}
+                    <div className="self-start my-4" style={{ maxWidth: "75%" }}>
+                        <div
+                            className=" bg-cyan-800 max-w-3/4 py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                        >
+                            <p>I'm fine, what about you?
+
+                                how are you? and where are you what about your day of Eid Ul Fitor.
+                                what you will do all day long at eid day. have you any plan?
+                            </p>
+
+                        </div>
+                        {/* <div className="flex justify-between">
+                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                            <p className="text-end mx-5">seen</p>
+                        </div> */}
                     </div>
-                    <div className="self-start ">
-                        <p>I'm fine, what about you? dfas</p>
+
+                    {/* sender message */}
+                    <div className="self-end" style={{ maxWidth: "75%" }}>
+
+                        <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                            <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                what you will do all day long at eid day. have you any plan?
+
+                            </p>
+
+                        </div>
+                        {/* <div className="flex justify-between">
+                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                            <p className="text-end mx-5">seen</p>
+                        </div> */}
+
                     </div>
+                    {/*  receiver message */}
+                    <div className="self-start my-4" style={{ maxWidth: "75%" }}>
+                        <div
+                            className=" bg-cyan-800 max-w-3/4 py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                        >
+                            <p>I'm fine, what about you?
+
+                                how are you? and where are you what about your day of Eid Ul Fitor.
+                                what you will do all day long at eid day. have you any plan?
+                            </p>
+
+                        </div>
+                        {/* <div className="flex justify-between">
+                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                            <p className="text-end mx-5">seen</p>
+                        </div> */}
+                    </div>
+
+                    {/* sender message */}
+                    <div className="self-end" style={{ maxWidth: "75%" }}>
+
+                        <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                            <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                what you will do all day long at eid day. have you any plan?
+
+                            </p>
+
+                        </div>
+                        {/* <div className="flex justify-between">
+                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                            <p className="text-end mx-5">seen</p>
+                        </div> */}
+
+                    </div>
+                    {/*  receiver message */}
+                    <div className="self-start my-4" style={{ maxWidth: "75%" }}>
+                        <div
+                            className=" bg-cyan-800 max-w-3/4 py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                        >
+                            <p>I'm fine, what about you?
+
+                                how are you? and where are you what about your day of Eid Ul Fitor.
+                                what you will do all day long at eid day. have you any plan?
+                            </p>
+
+                        </div>
+                        {/* <div className="flex justify-between">
+                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                            <p className="text-end mx-5">seen</p>
+                        </div> */}
+                    </div>
+
+                    {/* sender message */}
+                    <div className="self-end" style={{ maxWidth: "75%" }}>
+
+                        <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                            <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                what you will do all day long at eid day. have you any plan?
+
+                            </p>
+
+                        </div>
+                        {/* <div className="flex justify-between">
+                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                            <p className="text-end mx-5">seen</p>
+                        </div> */}
+
+                    </div>
+                    {/*  receiver message */}
+                    <div className="self-start my-4" style={{ maxWidth: "75%" }}>
+                        <div
+                            className=" bg-cyan-800 max-w-3/4 py-2 px-4  rounded-ss-3xl rounded-se-md "
+
+                        >
+                            <p>I'm fine, what about you?
+
+                                how are you? and where are you what about your day of Eid Ul Fitor.
+                                what you will do all day long at eid day. have you any plan?
+                            </p>
+
+                        </div>
+                        {/* <div className="flex justify-between">
+                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                            <p className="text-end mx-5">seen</p>
+                        </div> */}
+                    </div>
+
+                    {/* sender message */}
+                    <div className="self-end" style={{ maxWidth: "75%" }}>
+
+                        <div className=" bg-cyan-800  py-2 px-4 rounded-ss rounded-se-3xl" >
+                            <p >how are you? and where are you what about your day of Eid Ul Fitor.
+                                what you will do all day long at eid day. have you any plan?
+
+                            </p>
+
+                        </div>
+                        {/* <div className="flex justify-between">
+                            <p className="text-start mx-5">24 april 2023  04:30pm</p>
+                            <p className="text-end mx-5">seen</p>
+                        </div> */}
+
+                    </div>
+
+
+
+
+
 
                 </div>
 
 
 
-                {/* messege input */}
+                {/* message input div*/}
                 <div className="absolute bottom-1 bg-slate-800 w-full h-20 shadow flex items-center justify-center">
 
                     <input
