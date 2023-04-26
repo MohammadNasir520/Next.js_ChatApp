@@ -157,7 +157,7 @@ const page = () => {
                         </button>
 
                         <p class="text-center text-lg text-white">
-                            No account?
+                            already have an account?
                             <Link class="underline  bg-transparent text-blue-700" href="/pages/Login">Sign in</Link>
                         </p>
                     </form>
