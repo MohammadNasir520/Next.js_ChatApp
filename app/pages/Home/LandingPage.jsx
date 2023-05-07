@@ -2,13 +2,15 @@
 'use client'
 import Image from "next/image";
 import user from "../../assets/images/user.jpg"
+import { useState } from "react";
 
 const LandingPage = () => {
 
 
+
     return (
         <div className="flex h-screen text-white sticky top-0">
-            <div className="w-96 p-1 bg-cyan-950">
+            <div className={`w-full md:w-96 p-1 bg-cyan-950 `}>
                 <div className=" sticky top-2 bg-cyan-950">
                     <p className="font-semibold  my-3 text-slate-200">Chats</p>
 
@@ -45,6 +47,27 @@ const LandingPage = () => {
                 <div className="h-96 my-2 overflow-auto hideSroll " >
 
                     {/* messaged users */}
+                    <div
+
+                        className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
+                        <div>
+                            <Image
+                                src={user}
+                                alt="user image"
+                                className="rounded-full object-cover "
+                                style={{ maxWidth: '48px', maxHeight: "48px" }}
+                            />
+                        </div>
+                        <div className="w-full" >
+                            <div className=" flex  justify-between items-center w-full">
+                                <p className="font-semibold text-slate-300 ">Nasir Ahsan</p>
+                                <p className="font-thin text-xs text-slate-400">2h ago</p>
+                            </div>
+                            <p className="text-slate-400">how are you?</p>
+
+                        </div>
+                    </div>
+
                     <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
@@ -64,7 +87,9 @@ const LandingPage = () => {
                         </div>
                     </div>
                     <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
+
                         <div>
+
                             <Image
                                 src={user}
                                 alt="user image"
@@ -82,24 +107,7 @@ const LandingPage = () => {
                         </div>
                     </div>
                     <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
-                        <div>
-                            <Image
-                                src={user}
-                                alt="user image"
-                                className="rounded-full object-cover "
-                                style={{ maxWidth: '48px', maxHeight: "48px" }}
-                            />
-                        </div>
-                        <div className="w-full" >
-                            <div className=" flex  justify-between items-center w-full">
-                                <p className="font-semibold text-slate-300 ">Nasir Ahsan</p>
-                                <p className="font-thin text-xs text-slate-400">2h ago</p>
-                            </div>
-                            <p className="text-slate-400">how are you?</p>
 
-                        </div>
-                    </div>
-                    <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
                         <div>
                             <Image
                                 src={user}
@@ -233,9 +241,9 @@ const LandingPage = () => {
 
             </div>
 
-            <div className="flex-1 bg-slate-800 relative">
+            {/* inbox chat */}
+            <div className="flex-1 bg-slate-800 relative hidden md:block">
 
-                inbox chat
 
                 {/* message part header  */}
                 <div className="absolute top-0 bg-slate-800 w-full h-20  ">
