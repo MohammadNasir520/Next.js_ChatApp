@@ -26,25 +26,42 @@ const LandingPage = () => {
                     </div>
                     {/* active users list side scroll */}
 
-                    <div className="my-2 w-12 flex flex-col">
-                        <div className="">
-                            <Image
-                                src={user}
-                                alt="user image"
-                                className="rounded-full h-11 w-11 object-cover "
-                            />
+                    <div className="flex gap-4">
+
+
+                        <div className="my-2 w-12 flex flex-col text-center">
+                            <div className="relative">
+                                <Image
+                                    src={user}
+                                    alt="user image"
+                                    className="rounded-full h-11 w-11 object-cover "
+                                />
+                                <div class="w-3 h-3 rounded-full  absolute top-7 right-1 bg-green-500"></div>
+                            </div>
+                            <p className="text-xs text-slate-300">shaila sabi</p>
                         </div>
-                        <p className="text-xs text-slate-300">shaila sabi</p>
+
+                        <div className="my-2 w-12 flex flex-col  text-center">
+                            <div className="relative">
+                                <Image
+                                    src={user}
+                                    alt="user image"
+                                    className="rounded-full h-11 w-11 object-cover "
+                                />
+                                <div class="w-3 h-3 rounded-full  absolute top-7 right-1 bg-green-500"></div>
+                            </div>
+                            <p className="text-xs text-slate-300">shaila sabi</p>
+                        </div>
+
+
+
                     </div>
-
-
                     <h3 className="font-semibold my-2 text-slate-200">Recent Chats </h3>
                 </div>
 
 
-
                 {/*already  chat user  list */}
-                <div className="h-96 my-2 overflow-auto hideSroll " >
+                <div className="h-[480px] my-2 overflow-auto hideSroll " >
 
                     {/* messaged users */}
                     <div
@@ -69,13 +86,14 @@ const LandingPage = () => {
                     </div>
 
                     <div className="hover:bg-gray-800 flex gap-3 px-2 my-3  items-center   shadow-md cursor-pointer">
-                        <div>
+                        <div className="relative">
                             <Image
                                 src={user}
                                 alt="user image"
                                 className="rounded-full object-cover "
                                 style={{ maxWidth: '48px', maxHeight: "48px" }}
                             />
+                            <div class="w-3 h-3 rounded-full  absolute top-8 right-0 bg-green-500"></div>
                         </div>
                         <div className="w-full" >
                             <div className=" flex  justify-between items-center w-full">
@@ -249,16 +267,17 @@ const LandingPage = () => {
                 <div className="absolute top-0 bg-slate-800 w-full h-20  ">
 
                     <div className=" flex gap-3 px-2 my-2  rounded-md items-center">
-                        <div>
+                        <div className="relative">
                             <Image
                                 src={user}
                                 alt="user image"
                                 className="rounded-full h-12 w-12 object-cover "
                             />
+                            <div class="w-3 h-3 rounded-full  absolute top-8 right-0 bg-green-500"></div>
                         </div>
                         <div >
                             <p className="font-semibold text-slate-300">Nasir Ahsan</p>
-                            <p className="font-thin text-slate-300">active 2h ago</p>
+                            <p className="font-thin text-slate-300">active now/active 2h ago</p>
                         </div>
                     </div>
                 </div>
